@@ -13,7 +13,10 @@ Este projeto consiste em um sistema de votação para avaliar o atendimento aos 
 
 ## Funcionalidades
 
-1. **Registro de Voto**: O sistema possui uma rota `/voto` que permite o registro do voto do cliente, escolhendo uma das cinco opções de satisfação.
+1. **Registro de Voto**: O sistema possui uma rota `/votar` que permite o registro do voto do cliente, escolhendo uma das cinco opções de satisfação.
+2. **Pesquisa de Voto**: O sistema possui uma rota `/voto` que permite buscar um registro atravez do ID do voto do cliente.
+3. **Busca por Votos**: O sistema possui uma rota `/votos` que permite buscar todos os registro de voto dos cliente.
+4. **Deletar Voto**: O sistema possui uma rota `/voto` que permite deletar o registro do voto do cliente.
 
 ## Configuração e Instalação
 
