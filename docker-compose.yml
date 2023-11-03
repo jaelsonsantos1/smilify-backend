@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  postgres:
+    container_name: smilify
+    image: postgres
+    environment:
+      POSTGRES_DB: smilify
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+    volumes:
+      - ./data:/data/postgres
+    ports:
+      - "5432:5432"
